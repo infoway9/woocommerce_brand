@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widget_pw_brands_widget .brand-logo-holder {
+    list-style: none;
+    padding: 0;
+    margin: 0 -5px;
+}
+.widget_pw_brands_widget .logo {
+    background: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    float: left;
+    width: 30.7%;
+    margin: 0 5px 10px;
+    list-style: none;
+}
+.logo img
+{
+    max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
+}
+
+.slide img
+{
+    max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
+}
+#dispat-div{ position: relative;}
+
+.widget_pw_brands_widget .widget-title {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #333;
+}
+.widget_pw_brands_widget {
+    padding: 0 20px;
+    margin: 0 0 20px
+}
+.widget_pw_brands_widget .wb-alphabet-table {
+    display: table;
+    border-bottom: 1px solid #ededed;
+    padding: 5px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.widget_pw_brands_widget .wb-alphabet-table .wb-all-alphabet {
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    padding-right: 5px;
+    width: 50px;
+}
+.widget_pw_brands_widget .wb-alphabet-table a {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    text-decoration: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: top;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #333;
+}
+.widget_pw_brands_widget .wb-alphabet-table .wb-all-alphabet a {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+.widget_pw_brands_widget .wb-alphabet-table .wb-other-brands {
+    padding-left: 10px;
+}
+.widget_pw_brands_widget .wb-alphabet-table:after, 
+.widget_pw_brands_widget .wb-alphabet-table:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.widget_pw_brands_widget .ps-container {
+    width: 100%;
+    margin: 20px auto 0px;
+    position: relative;
+}
+.widget_pw_brands_widget .ps-container .single-brand {
+    display: block;
+}
+.widget_pw_brands_widget .ps-container .single-brand a {
+    display: inline-block;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+    margin: 0;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: #1fa0ae;
+}
+.widget_pw_brands_widget .brand-list {
+    overflow: auto;
+    max-height: 100px;
+}
+.widget_pw_brands_widget .bx-wrapper .bx-viewport {
+    background: transparent;
+    border: none;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    left: 0;
+    overflow: hidden;
+}
+.widget_pw_brands_widget .slider1 .slide {
+    text-align: center;
+    padding: 20px 0 0;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(221,221,221,1);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(221,221,221,1);
+    box-shadow: inset 0px 0px 0px 1px rgba(221,221,221,1);
+}
+.widget_pw_brands_widget .slider1 .slide img {
+    margin-bottom: 20px;
+}
+.widget_pw_brands_widget .brand-carousel-caption {
+    width: 100%;
+    padding: 10px 0px;
+    background: #f5f5f5;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.widget_pw_brands_widget .bx-wrapper .bx-pager, .widget_pw_brands_widget .bx-wrapper .bx-controls-auto {
+    position: inherit; 
+    bottom: inherit;
+}
+.ui-tooltip, .arrow:after {
+    background: black;
+    border: 1px solid white;
+}
+.ui-tooltip {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    font: bold 12px Sans-Serif;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.39);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
